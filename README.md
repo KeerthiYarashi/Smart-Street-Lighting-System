@@ -13,3 +13,45 @@ An **IoT-based Smart Street Light Management System** that automates street ligh
 2. **IR Sensor** – Detects human/vehicle motion.
 3. **ESP32 NodeMCU** – Processes sensor inputs and controls the street light (LED).
 4. **Blynk App** – Displays real-time sensor values, LED status, and allows remote control.
+
+## 🛠️ Hardware & Software Used
+### Hardware:
+- ESP32 (NodeMCU)
+- LDR Sensor (Light Dependent Resistor)
+- IR Motion Sensor
+- LEDs (Street Light Simulation)
+- Breadboard, Jumper Wires, Resistors
+### Software:
+- Arduino IDE
+- Blynk IoT App
+- Libraries:
+  - `WiFi.h`
+  - `BlynkSimpleEsp32.h`
+## 📱 Blynk Dashboard
+The **Blynk mobile app** provides:
+- 📌 **LDR & IR sensor readings**
+- 💡 **LED Brightness Gauge**
+- 🔄 **Auto/Manual Toggle**
+- 📜 **Status Log** for real-time updates
+![Blynk Dashboard](<screenshot-path>)
+## 📊 Status Log Example
+
+
+## 🌍 Applications
+- Smart Cities & Energy-Efficient Infrastructure
+- Highway and Street Lighting
+- Campus & Industrial Lighting Automation
+- Residential Communities
+## 🎯 Expected Outcomes
+- ⚡ Up to **40–60% energy savings** compared to conventional systems
+- 📉 Reduced maintenance costs with automated control
+- 🌱 Greener, sustainable urban infrastructure
+## 📚 References
+- Raghavendra et al., *Smart Lighting Systems: A Review*, IEEE Access, 2019.
+- S. K. Prasad, *IoT-based Smart Street Lights using Arduino*, IJER, 2021.
+- Blynk Documentation – [docs.blynk.io](https://docs.blynk.io)
+- Kumar et al., *Street Lighting Automation in Smart Cities*, Springer, 2021.
+## 📌 How to Run
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/<your-username>/Smart-Street-Lighting-System.git
